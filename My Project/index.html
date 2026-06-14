@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <title>My Page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div>
-      <nav>
+    <div class="container">
+      <nav class="menu">
         <a href="index.html">Home</a>
         <a href="pages/contact.html">Contacts</a>
         <a href="pages/gallery.html">Gallery</a>
@@ -15,36 +17,47 @@
 
     <hr />
 
-    <div>
-      <h1>My Profile</h1>
+    <div class="profile">
+      <h1 id="main-title">My Profile</h1>
 
-      <img src="photo/me.png" alt="My photo" width="200" height="200" />
+      <img
+        class="avatar"
+        src="photo/me.png"
+        alt="My photo"
+        width="200"
+        height="200"
+      />
 
       <h2>Information</h2>
-
-      <p><strong>Name:</strong> Illia Simonenko</p>
-      <p><strong>City:</strong> Odesa</p>
-      <p><strong>Profession:</strong> Military serviceman</p>
-      <p><strong>Age:</strong> 31</p>
+      <ul class="strong">
+        <li><strong>Name:</strong> Illia Simonenko</li>
+        <li><strong>City:</strong> Odesa</li>
+        <li><strong>Profession:</strong> Military serviceman</li>
+        <li><strong>Age:</strong> 31</li>
+      </ul>
     </div>
-    <div>
+    <hr />
+
+    <div class="about">
       <h2>About Me</h2>
+
       <p>
-        I have finished the Odesa National Politechnic University in 2016.
+        I have finished the Odesa National Polytechnic University in 2016.
         <br />
         Since 2016 I have been serving in the State Service of Special
-        Communications and Information Protection of Ukraine. <br />
+        Communications and Information Protection of Ukraine.
+        <br />
         I was seriously wounded in 2025.
       </p>
+
       <p>
-        Now i decided to chenge my profession. I want to become a QA Engineer.
+        Now I decided to change my profession. I want to become a QA Engineer.
         <br />
         This profession interests me because it combines technical skills with
         problem-solving and attention to detail.
       </p>
-      <p>
-        My hobbie is riding motorcycle. I have a big bike Suzuki intruder 1500.
-      </p>
+
+      <p>My hobby is riding a motorcycle. I have a Suzuki Intruder 1500.</p>
     </div>
   </body>
 </html>

@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a9acb1;
+  margin: 20px;
+}
+.container {
+  background-image: url("../photo/profile-background1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 25px;
+  box-sizing: border-box;
+}
+hr {
+  border: none;
+  height: 2px;
+  background-color: gray;
+}
+.menu a {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 15px;
+  color: navy;
+}
